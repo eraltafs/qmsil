@@ -1,0 +1,242 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 80px;
+  z-index: 5;
+}
+
+.carousel {
+  top: 80px;
+}
+
+/* unvisited link */
+.nav-bk {
+  background: white;
+}
+
+.nav-link {
+  padding-left: 3px;
+  padding-right: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+  border: 2px solid black;
+}
+
+.nav-link:link {
+  background-color: black;
+  color: white;
+  padding-left: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+/* visited link */
+.nav-link:visited {
+  background-color: green;
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* mouse over link */
+.nav-link:hover {
+  background-color: red;
+}
+
+/* selected link */
+.nav-link:active {
+  background-color: #e28c29;
+  color: #fff;
+}
+
+h3 {
+  margin-top: 80px;
+  font-family: 'Sriracha', cursive;
+  text-align: center;
+}
+
+.read {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 6px;
+  align-items: center;
+  padding: 0px 33%;
+
+}
+
+.read:hover {
+  background-image: linear-gradient(to right, rgb(0, 28, 74), rgb(167, 167, 167));
+}
+
+.card:hover {
+  background-color: bisque;
+
+}
+
+.card-img-top {
+  box-shadow: 1px 2px 4px black;
+  border-radius: 20px;
+
+
+}
+
+/* Float three columns side by side */
+.columnservice {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+  margin-bottom: 5px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .columnservice {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  text-align: center;
+  background-color: #f1f1f1;
+
+}
+
+/* heading after crausel in index*/
+#indexh1 {
+  color: #e28c29;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-align: center;
+}
+
+/* middle button after crausels */
+.ourservicemiddle {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 6px;
+  align-items: center;
+  padding: .375rem .75rem;
+
+}
+
+/* middle button  link after crausels */
+.ourservicemiddle a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Sriracha', cursive;
+  font-size: 20px;
+}
+
+/* middle button  link hover after crausels */
+
+.ourservicemiddle:hover {
+  background-image: linear-gradient(to right, rgb(0, 28, 74), rgb(167, 167, 167));
+}
+
+/* middle button  Center after crausels */
+.buttoncontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* contac bar */
+.contactBar {
+  background-color: aqua;
+  margin-top: 10px;
+  border: 3px solid black;
+  padding: 20px;
+  font-size: 20px;
+}
+
+/* contac bar button */
+
+span.contactusBtn {
+  margin-left: 45%;
+  background-color: #e28c29;
+  padding: 6px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+/* contac bar button hover*/
+
+span.contactusBtn:hover {
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+
+/* index page paragraph content justify */
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.values {
+  box-shadow: #fff;
+  border: 2px solid #e28c29;
+  border-radius: 6px;
+  box-shadow: 2px 2px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+
+}
+
+.conbg {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.6;
+  object-fit: cover;
+}
+
+.contactcc {
+  margin-bottom: 30px;
+}
+
+.Testimonials {
+  margin-top: 12%;
+  background-color: #f1f1f1;
+}
+
